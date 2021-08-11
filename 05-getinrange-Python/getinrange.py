@@ -6,4 +6,10 @@
 
 def fun_getinrange(x, bound1, bound2):
 	# your code goes here
-	return -1
+	l = []
+	l.append(x)
+	l.append(bound1)
+	l.append(bound2)
+	l.sort()
+	return l[1]
+	
