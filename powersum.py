@@ -29,6 +29,10 @@ def power(a, b):
 
 def powerSum(n, k):
     # Your code goes here...
+    res = 0
+    for i in range(1,n+1):
+        res+=power(i,k)
+
     return 0
 
 # Write your own test cases here...
