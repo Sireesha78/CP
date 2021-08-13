@@ -33,7 +33,7 @@ def powerSum(n, k):
     for i in range(1,n+1):
         res+=power(i,k)
 
-    return 0
+    return res
 
 # Write your own test cases here...
 assert(powerSum(2,10) == 1025)
