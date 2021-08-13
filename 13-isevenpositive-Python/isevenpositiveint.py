@@ -6,4 +6,9 @@
 
 def isevenpositiveint(x):
 	# your code goes here
-	pass
+	# a = isinstance(x,int)
+	if(type(x)==int and x%2==0 and x>0):
+		return True
+	else:
+		return False
+	# pass
