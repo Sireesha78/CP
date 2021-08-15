@@ -11,7 +11,17 @@
 
 
 def fun_applycaesarcipher(msg, shift):
-	return ""
+	text = ""
+	for i in range(len(msg)):
+		cae = msg[i]
+		if(cae.islower()):
+			text += chr((ord(cae)+shift-97)%26+97)
+		elif(cae==" "):
+			text += " "
+		else:
+			text += chr((ord(cae)+shift-65)%26+65)
+
+	return text
 
 
 
