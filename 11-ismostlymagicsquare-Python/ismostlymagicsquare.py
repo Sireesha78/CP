@@ -15,4 +15,25 @@
 
 def ismostlymagicsquare(a):
 	# Your code goes here
-	pass
+	if((len(a)==1) and (len(a[0])==1)):
+		return True
+	l = len(a)
+	p = 0
+	q = 0 
+	for i in range(l):
+		p+=a[i][i]
+		q+=a[i][l-i-1]
+	if(p!=q):
+		return False
+	for i in range(len(a)):
+		r = 0
+		s = 0
+		for j in range(len(a)):
+			r+=a[i][j]
+			s+=a[j][i]
+	if(r!=s):
+		return False
+	return True
+
+		
+	# pass
