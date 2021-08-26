@@ -1,0 +1,11 @@
+{
+    "nthpowerfulnumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 25,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:46:32",
+            "keyStrokeInfo": "import math\r\ndef ispowerfulnumber(n):\r\n    while(n%2==0):\r\n        power=0\r\n        while(n%2==0):\r\n            n=n//2\r\n            power=power+1\r\n        if(power==1):\r\n            return False\r\n    for f in range(3,int(math.sqrt(n))+1,2):\r\n        power=0\r\n        while(n%f==0):\r\n            n=n//f\r\n            power=power+1\r\n        if(power==1):\r\n            return False\r\n    return (n == 1)                    \r\ndef nthpowerfulnumber(n):\r\n    i=0\r\n    j=0\r\n    while(i<=n):\r\n        j += 1\r\n        if(ispowerfulnumber(j)):\r\n            i +=1\r\n    return    j\r\n",
+            "position": "8,1"
+        }
+    ]
+}
