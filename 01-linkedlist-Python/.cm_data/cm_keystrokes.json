@@ -1,0 +1,130 @@
+{
+    "linkedlist.py": [
+        {
+            "operation": "PASTE",
+            "lines": 71,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:09:33",
+            "keyStrokeInfo": "class Element(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.next = None\r\n        \r\nclass LinkedList(object):\r\n    def _init_(self, head=None):\r\n        self.head = head\r\n        \r\n    def append(self, new_element):\r\n        # Your code goes here\r\n        temp=self.head\r\n        if self.head:\r\n            while temp.next:\r\n                temp=temp.next\r\n            temp.next=new_element\r\n        else:\r\n            self.head=new_element\r\n\r\n            \r\n    def get_position(self, position):\r\n        \"\"\"Get an element from a particular position.\r\n        Assume the first position is \"1\".\r\n        Return \"None\" if position is not in the list.\"\"\"\r\n        # Your code goes here\r\n        count=1\r\n        temp=self.head\r\n        if(position<1):\r\n            return None\r\n        while (temp and count<=position):\r\n            if (count==position):\r\n                return temp\r\n            temp=temp.next\r\n            count+= 1\r\n        return None\r\n\r\n    \r\n    def insert(self, new_element, position):\r\n        \"\"\"Insert a new node at the given position.\r\n        Assume the first position is \"1\".\r\n        Inserting at position 3 means between\r\n        the 2nd and 3rd elements.\"\"\"\r\n        # Your code goes here\r\n        count=1\r\n        temp=self.head\r\n        if(position>1):\r\n            while(temp and count<position):\r\n                if (count==position-1):\r\n                    new_element.next=temp.next\r\n                    temp.next=new_element\r\n                temp=temp.next\r\n                count+=1\r\n        elif (position==1):\r\n            new_element.next=self.head\r\n            self.head=new_element\r\n\r\n    \r\n    \r\n    def delete(self, value):\r\n        \"\"\"Delete the first node with a given value.\"\"\"\r\n        # Your code goes here\r\n        temp=self.head\r\n        previous=None\r\n        while(temp.value!=value and temp.next):\r\n            previous=temp\r\n            temp=temp.next\r\n        if (temp.value==value):\r\n            if(previous):\r\n                previous.next=temp.next\r\n            else:\r\n                self.head=temp.next",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 33,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:10:16",
+            "keyStrokeInfo": "class Element(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.next = None\r\n        \r\nclass LinkedList(object):\r\n    def __init__(self, head=None):\r\n        self.head = head\r\n        \r\n    def append(self, new_element):\r\n        # Your code goes here\r\n        pass\r\n            \r\n    def get_position(self, position):\r\n        \"\"\"Get an element from a particular position.\r\n        Assume the first position is \"1\".\r\n        Return \"None\" if position is not in the list.\"\"\"\r\n        # Your code goes here\r\n        pass\r\n    \r\n    def insert(self, new_element, position):\r\n        \"\"\"Insert a new node at the given position.\r\n        Assume the first position is \"1\".\r\n        Inserting at position 3 means between\r\n        the 2nd and 3rd elements.\"\"\"\r\n        # Your code goes here\r\n        pass\r\n    \r\n    \r\n    def delete(self, value):\r\n        \"\"\"Delete the first node with a given value.\"\"\"\r\n        # Your code goes here\r\n        pass\r\n",
+            "position": "11,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:21",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "21,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:22",
+            "keyStrokeInfo": "temp=self.head\r\n        if self.head:\r\n            while temp.next:\r\n                temp=temp.next\r\n            temp.next=new_element\r\n        else:\r\n            self.head=new_element",
+            "position": "22,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:24",
+            "keyStrokeInfo": "# ",
+            "position": "29,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:40",
+            "keyStrokeInfo": "# ",
+            "position": "36,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:41",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "36,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:42",
+            "keyStrokeInfo": "        \r\n",
+            "position": "37,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:43",
+            "keyStrokeInfo": "",
+            "position": "37,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:44",
+            "keyStrokeInfo": "",
+            "position": "37,5"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:55",
+            "keyStrokeInfo": "    ",
+            "position": "37,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:11:56",
+            "keyStrokeInfo": "count=1\r\n        temp=self.head\r\n        if(position<1):\r\n            return None\r\n        while (temp and count<=position):\r\n            if (count==position):\r\n                return temp\r\n            temp=temp.next\r\n            count+= 1\r\n        return None",
+            "position": "37,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:12",
+            "keyStrokeInfo": "# ",
+            "position": "54,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:12",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "54,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 12,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:13",
+            "keyStrokeInfo": "count=1\r\n        temp=self.head\r\n        if(position>1):\r\n            while(temp and count<position):\r\n                if (count==position-1):\r\n                    new_element.next=temp.next\r\n                    temp.next=new_element\r\n                temp=temp.next\r\n                count+=1\r\n        elif (position==1):\r\n            new_element.next=self.head\r\n            self.head=new_element",
+            "position": "55,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:24",
+            "keyStrokeInfo": "# ",
+            "position": "72,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:25",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "72,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 10,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:12:25",
+            "keyStrokeInfo": "temp=self.head\r\n        previous=None\r\n        while(temp.value!=value and temp.next):\r\n            previous=temp\r\n            temp=temp.next\r\n        if (temp.value==value):\r\n            if(previous):\r\n                previous.next=temp.next\r\n            else:\r\n                self.head=temp.next",
+            "position": "73,9"
+        }
+    ]
+}
