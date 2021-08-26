@@ -1,0 +1,32 @@
+{
+    "threelines_area.py": [
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:43:39",
+            "keyStrokeInfo": "import math\r\n\r\ndef fun_threelines_area(a, b, c):\r\n\ts = (a + b + c) / 2 \r\n\tarea = (s*(s-a)*(s-b)*(s-c)) ** 0.5  \r\n\treturn int(area)\r\n",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:43:43",
+            "keyStrokeInfo": "",
+            "position": "8,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:43:43",
+            "keyStrokeInfo": "",
+            "position": "8,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 10:43:43",
+            "keyStrokeInfo": "",
+            "position": "7,34"
+        }
+    ]
+}
