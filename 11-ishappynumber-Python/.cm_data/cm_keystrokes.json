@@ -1,0 +1,32 @@
+{
+    "ishappynumber.py": [
+        {
+            "operation": "PASTE",
+            "lines": 20,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:10",
+            "keyStrokeInfo": "def ishappynumber(n):\r\n\t# your code goes here\r\n\r\n\tx = DigiSum(n)\r\n\twhile(x>9):\r\n\t\tx=DigiSum(x)\r\n\tsol=0\r\n\twhile(x>0):\r\n\t\tR = x%10\r\n\t\tx =x//10\r\n\t\tsol += R\r\n\treturn (sol == 1 )\r\n\r\ndef DigiSum(n):\r\n\tsum=0\r\n\twhile(n>0):\r\n\t\tr = n%10\r\n\t\tn = n//10\r\n\t\tsum +=(r*r)\r\n\treturn sum",
+            "position": "22,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 2,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:17",
+            "keyStrokeInfo": "",
+            "position": "22,2"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:17",
+            "keyStrokeInfo": "",
+            "position": "22,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 11:14:18",
+            "keyStrokeInfo": "",
+            "position": "21,23"
+        }
+    ]
+}
