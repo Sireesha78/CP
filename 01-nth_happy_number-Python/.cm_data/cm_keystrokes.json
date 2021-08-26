@@ -1,0 +1,11 @@
+{
+    "nth_happy_number.py": [
+        {
+            "operation": "PASTE",
+            "lines": 31,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 15:54:32",
+            "keyStrokeInfo": "def numsqu(n):\r\n    squsum = 0\r\n    while (n):\r\n        squsum += (n % 10) * (n % 10)\r\n        n = int(n / 10)\r\n    return squsum\r\ndef happy(n):\r\n    n1 = n\r\n    n2 = n\r\n    while(True):\r\n        n1 = numsqu(n1)\r\n        n2 = numsqu(numsqu(n2))\r\n        if(n1 != n2):\r\n            continue\r\n        else:\r\n            break\r\n    return (n1 == 1)\r\ndef happynum(n):\r\n    if (happy(n)):\r\n        return n\r\n    else:\r\n        return 4        \r\ndef nth_happy_number(n):\r\n    i=1\r\n    j=0\r\n    while(i<=n):\r\n        j += 1\r\n        if(happy(j)):\r\n            print(j)\r\n            i +=1\r\n    return j\r\n",
+            "position": "18,1"
+        }
+    ]
+}
