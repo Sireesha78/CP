@@ -1,0 +1,11 @@
+{
+    "isAdditivePrime.py": [
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Thu Aug 26 2021 16:04:17",
+            "keyStrokeInfo": "def isPrime(x):\r\n\tif (x < 2):\r\n\t\treturn False\r\n\tif (x == 2):\r\n\t\treturn True\r\n\tif (x % 2 == 0):\r\n\t\treturn False\r\n\tn= round(x**0.5)\r\n\r\n\tfor i in range(3,n+1,2):\r\n\t\tif (x % i == 0):\r\n\t\t\treturn False\r\n\t\t\r\n\treturn True\r\ndef sum(s):\r\n\tsum=0\r\n\twhile(s > 0):\r\n\t\ta=int(s % 10)\r\n\t\ts = int(s // 10)\r\n\t\tsum= sum+a\r\n\treturn isPrime(sum)",
+            "position": "1,1"
+        }
+    ]
+}
