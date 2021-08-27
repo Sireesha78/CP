@@ -7,4 +7,11 @@
 
 def issorted(a):
 	# your code goes here
-	pass
+	# pass
+	l=a
+	l=sorted(l)
+	l1=sorted(l, reverse=True)
+
+	if(l==a or l1==a):
+		return True
+	return False
