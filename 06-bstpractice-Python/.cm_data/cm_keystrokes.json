@@ -1,0 +1,67 @@
+{
+    "bst.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:52:31",
+            "keyStrokeInfo": "# ",
+            "position": "13,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:52:32",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "13,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:52:32",
+            "keyStrokeInfo": "new_node = Node(new_val)\r\n        if (self.root == None):\r\n            self.root = new_node\r\n        else:\r\n            present_node = self.root\r\n            parent_node = self.root\r\n            while (present_node != None):\r\n                parent_node = present_node\r\n                if (new_val < present_node.value):\r\n                    present_node = present_node.left\r\n                else:\r\n                    present_node = present_node.right\r\n            if (new_val < parent_node.value):\r\n                parent_node.left= new_node\r\n            else:\r\n                parent_node.right = new_node\r\n        pass",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:28",
+            "keyStrokeInfo": "# ",
+            "position": "34,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:28",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "34,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:29",
+            "keyStrokeInfo": " print(self.root)",
+            "position": "35,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:31",
+            "keyStrokeInfo": "# ",
+            "position": "39,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:31",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "39,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 20:17:41",
+            "keyStrokeInfo": "while self.root!=None:\r\n            if self.root.value == find_val:\r\n                return True \r\n            if self.root.value < find_val:\r\n                self.root = self.root.right\r\n            else:\r\n                self.root = self.root.left\r\n        return False",
+            "position": "40,9"
+        }
+    ]
+}
