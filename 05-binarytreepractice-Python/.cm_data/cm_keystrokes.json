@@ -1,0 +1,207 @@
+{
+    "binarytree.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:30:44",
+            "keyStrokeInfo": "# ",
+            "position": "14,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:30:47",
+            "keyStrokeInfo": "# ",
+            "position": "16,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:30:49",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "16,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:30:49",
+            "keyStrokeInfo": "if(start==None):\r\n                return False\r\n            if(start.value==find_val):\r\n                return True\r\n            return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "17,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:31:00",
+            "keyStrokeInfo": "",
+            "position": "17,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:31:05",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "29,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:31:06",
+            "keyStrokeInfo": "if(start==None):\r\n                return False\r\n            if(start.value==find_val):\r\n                return True\r\n            return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "30,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:31:09",
+            "keyStrokeInfo": "# ",
+            "position": "35,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 41,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:31:36",
+            "keyStrokeInfo": "class Node(object):\r\n    def _init_(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def _init_(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        \"\"\"\r\n        return self.preorder_search(self.root,find_val)\r\n        # Your code goes here\r\n    def print_tree(self):\r\n            \"\"\"\r\n            Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n            # Your code goes here\r\n            self.preorder_print(self.root)\r\n    def preorder_search(self, start, find_val):\r\n            \"\"\"\r\n            Helper method - use this to create a recursive search solution.\r\n            \"\"\"\r\n            # Your code goes here\r\n            if(start==None):\r\n                return False\r\n            if(start.value==find_val):\r\n                return True\r\n            return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)\r\n    def preorder_print(self, start, traversal):\r\n            \"\"\"\r\n            Helper method - use this to create a recursive print solution.\r\n            \"\"\"\r\n            # Your code goes here\r\n            if(start is None):\r\n                return\r\n            print(start.value)\r\n            self.preorder_print(start.left)\r\n            self.preorder_print(self.right)",
+            "position": "1,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 42,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:36:46",
+            "keyStrokeInfo": "class Node(object):\r\n    def __init__(self, value):\r\n        self.value = value\r\n        self.left = None\r\n        self.right = None\r\n\r\nclass BinaryTree(object):\r\n    def __init__(self, root):\r\n        self.root = Node(root)\r\n\r\n    def search(self, find_val):\r\n        \"\"\"\r\n        Return True if the find_val is in the tree and False otherwise.\r\n        # \"\"\"\r\n        # Your code goes here\r\n        # pass\r\n        \r\n\r\n    def print_tree(self):\r\n        \"\"\"\r\n        Print out all tree nodes as they are visited in a pre-order traversal.\"\"\"\r\n        # Your code goes here\r\n        pass\r\n\r\n    def preorder_search(self, start, find_val):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive search solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        if(start==None):\r\n                return False\r\n            if(start.value==find_val):\r\n                return True\r\n            return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)\r\n        # pass\r\n\r\n    def preorder_print(self, start, traversal):\r\n        \"\"\"\r\n        Helper method - use this to create a recursive print solution.\r\n        \"\"\"\r\n        # Your code goes here\r\n        pass\r\n",
+            "position": "1,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:36:48",
+            "keyStrokeInfo": "",
+            "position": "35,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 4,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:36:49",
+            "keyStrokeInfo": "",
+            "position": "30,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:37:59",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "15,30"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:00",
+            "keyStrokeInfo": "return self.preorder_search(self.root,find_val)",
+            "position": "16,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:33",
+            "keyStrokeInfo": "# ",
+            "position": "24,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:36",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "24,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:36",
+            "keyStrokeInfo": "self.preorder_print(self.root)",
+            "position": "25,9"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:53",
+            "keyStrokeInfo": "# ",
+            "position": "33,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:38:58",
+            "keyStrokeInfo": "if(start==None):\r\n                return False\r\n            if(start.value==find_val):\r\n                return True\r\n            return self.preorder_search(start.left,find_val) or self.preorder_search(start.right, find_val)",
+            "position": "32,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:39:51",
+            "keyStrokeInfo": "",
+            "position": "36,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:39:57",
+            "keyStrokeInfo": "",
+            "position": "34,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:39:58",
+            "keyStrokeInfo": "",
+            "position": "35,13"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:00",
+            "keyStrokeInfo": "",
+            "position": "33,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:15",
+            "keyStrokeInfo": "# ",
+            "position": "44,9"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:16",
+            "keyStrokeInfo": "\r\n        ",
+            "position": "44,15"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:23",
+            "keyStrokeInfo": "if(start is None):\r\n                return\r\n            print(start.value)\r\n            self.preorder_print(start.left)\r\n            self.preorder_print(self.right)",
+            "position": "45,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:29",
+            "keyStrokeInfo": "",
+            "position": "47,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:31",
+            "keyStrokeInfo": "",
+            "position": "48,9"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:40:32",
+            "keyStrokeInfo": "",
+            "position": "49,9"
+        }
+    ]
+}
