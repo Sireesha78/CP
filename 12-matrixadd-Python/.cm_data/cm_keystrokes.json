@@ -1,0 +1,25 @@
+{
+    "matrixadd.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:47:25",
+            "keyStrokeInfo": "# ",
+            "position": "20,2"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:47:26",
+            "keyStrokeInfo": "\r\n\t",
+            "position": "20,8"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 16,
+            "keyStrokeTimeStamp": "Fri Aug 27 2021 19:47:27",
+            "keyStrokeInfo": "rows=len(L)\r\n\tcols=len(L[0])\r\n\tif(len(L)==len(M) and len(L[0])==len(M[0])): \r\n\t\ttry:\r\n\t\t\tarr = []\r\n\t\t\tfor i in range(len(L)):\r\n\t\t\t\tarr1=[]\r\n\t\t\t\tfor j in range(len(M[0])):\r\n\t\t\t\t\tarr1.append(L[i][j] + M[i][j])\r\n\t\t\t\tarr.append(arr1)\r\n\t\t\r\n\t\t\treturn arr\r\n\t\texcept IndexError:\r\n\t\t\treturn None\r\n\telse:\r\n\t\treturn None",
+            "position": "21,2"
+        }
+    ]
+}
