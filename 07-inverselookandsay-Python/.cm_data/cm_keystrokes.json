@@ -1,0 +1,11 @@
+{
+    "inverselookandsay.py": [
+        {
+            "operation": "PASTE",
+            "lines": 13,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:41:27",
+            "keyStrokeInfo": "def inverselookandsay(a):\r\n    # Your code goes here\r\n\r\n    li=[]\r\n    try:\r\n        for i in a:\r\n            j=i[0]\r\n            k=i[1]\r\n            for l in range(j):\r\n                li.append(k)\r\n        return li\r\n    except IndexError:\r\n        return li",
+            "position": "23,1"
+        }
+    ]
+}
