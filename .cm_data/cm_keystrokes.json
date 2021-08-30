@@ -1,0 +1,53 @@
+{
+    "non_destructive_remove_repeats.py": [
+        {
+            "operation": "PASTE",
+            "lines": 15,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:51:55",
+            "keyStrokeInfo": "def nondestructiveRemoveRepeats(L):\r\n    # Your code goes here...\r\n    x=[]\r\n    a=[]\r\n    for i in L:\r\n        x.append(i)\r\n        a.append(i)\r\n    x.sort()\r\n    # print(x)\r\n    for i in range(len(x)-1):\r\n        if(x[i]==x[i+1]):\r\n            a.remove(x[i])\r\n    a.sort()\r\n    # print(a)\r\n    return a",
+            "position": "11,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:53:28",
+            "keyStrokeInfo": "",
+            "position": "24,4"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:53:28",
+            "keyStrokeInfo": "",
+            "position": "24,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 1,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:53:29",
+            "keyStrokeInfo": "",
+            "position": "23,13"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:53:58",
+            "keyStrokeInfo": "# ",
+            "position": "25,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:54:15",
+            "keyStrokeInfo": "",
+            "position": "25,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 6,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:54:53",
+            "keyStrokeInfo": "def nondestructiveRemoveRepeats(L):\r\n    x = []\r\n    for i in L:\r\n        if i not in x:\r\n            x.append(i)\r\n    return x\r\n\r\n",
+            "position": "11,1"
+        }
+    ]
+}
