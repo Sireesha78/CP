@@ -1,0 +1,11 @@
+{
+    "recursion_secondlargest.py": [
+        {
+            "operation": "PASTE",
+            "lines": 9,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 12:02:17",
+            "keyStrokeInfo": "def recursion_secondlargest(L,a=0):\r\n    # your code goes here\r\n    if L==[] or len(L)==1 and a==0:\r\n        return None\r\n    elif a==1:\r\n        return max(L)\r\n    else:\r\n        L.remove(max(L))\r\n        return recursion_secondlargest(L,a+1)",
+            "position": "16,1"
+        }
+    ]
+}
