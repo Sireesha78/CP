@@ -1,0 +1,11 @@
+{
+    "canqueenattack.py": [
+        {
+            "operation": "PASTE",
+            "lines": 5,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:46:05",
+            "keyStrokeInfo": "def canqueenattack(qR, qC, oR, oC):\r\n\r\n    if qC-oC==0 or qR-oR==0 or abs(qC-oC == qR-oR):\r\n        return True\r\n    return False",
+            "position": "6,1"
+        }
+    ]
+}
