@@ -1,0 +1,11 @@
+{
+    "getaverage.py": [
+        {
+            "operation": "PASTE",
+            "lines": 14,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 11:43:16",
+            "keyStrokeInfo": "def fun_getaverage(s):\r\n    x=s.split(\",\")\r\n    a=0\r\n    count=0\r\n    for i in range(len(x)):\r\n        if (x[i].isnumeric()):\r\n            a+=int(x[i])\r\n            count+=1\r\n        else:\r\n            continue\r\n    if a==0:\r\n        return 0\r\n    else:\r\n        return a/count",
+            "position": "12,1"
+        }
+    ]
+}
