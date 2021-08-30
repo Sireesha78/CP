@@ -1,0 +1,18 @@
+{
+    "areAnagrams.py": [
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 12:11:40",
+            "keyStrokeInfo": "# ",
+            "position": "15,5"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 8,
+            "keyStrokeTimeStamp": "Mon Aug 30 2021 12:11:43",
+            "keyStrokeInfo": "import string\r\ndef areAnagrams(s1, s2):\r\n    s1=s1.lower()\r\n    s2=s2.lower()\r\n    for j in string.ascii_lowercase:\r\n        if s1.count(j)!=s2.count(j):\r\n            return False\r\n    return True",
+            "position": "13,1"
+        }
+    ]
+}
