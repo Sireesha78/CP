@@ -1,0 +1,18 @@
+{
+    "movie_awards.py": [
+        {
+            "operation": "PASTE",
+            "lines": 7,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:09:34",
+            "keyStrokeInfo": "def movie_awards(oscarResults):\r\n    # Your code goes here...\r\n    r=list(oscarResults)\r\n    a={}\r\n    for i, j in r:\r\n        a[j]=a.get(j,0)+1\r\n    return a",
+            "position": "19,1"
+        },
+        {
+            "operation": "PASTE",
+            "lines": 3,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:09:56",
+            "keyStrokeInfo": "\r\ndef movieAwards(oscarResults):\r\n    # Your code goes here...\r\n    pass",
+            "position": "18,1"
+        }
+    ]
+}
