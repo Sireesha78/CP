@@ -1,0 +1,11 @@
+{
+    "quiz.py": [
+        {
+            "operation": "PASTE",
+            "lines": 21,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:13:02",
+            "keyStrokeInfo": "def bestQuiz(l):\r\n    # Your  code goes ehre...\r\n    row=len(l)\r\n    col=len(l[0])\r\n    sum=0\r\n    c=0\r\n    res=[]\r\n    for i in range(col):\r\n          sum=0\r\n          c=0\r\n          for j in range(row):\r\n                if(l[j][i]!=-1):\r\n                      sum+=l[j][i]\r\n                      c+=1\r\n          if(c!=0):\r\n                average=sum/c\r\n                res.append(average)\r\n    if(len(res)==0):\r\n          return None\r\n    else:\r\n          return res.index(max(res))",
+            "position": "7,1"
+        }
+    ]
+}
