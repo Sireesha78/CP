@@ -1,0 +1,11 @@
+{
+    "recursion_powersof3ton.py": [
+        {
+            "operation": "PASTE",
+            "lines": 17,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:11:17",
+            "keyStrokeInfo": "def check(n,l,i=0,total=0):\r\n\t\ttotal=(3**i)\r\n\t\tif(total<=n):\r\n\t\t\t\tl.append(total)\r\n\t\ti+=1\r\n\t\tif(total>=n):\r\n    \t\t\treturn l\r\n\t\treturn check(n,l,i,total)\r\n\r\ndef recursion_powersof3ton(n):\r\n\t# Your code goes here\r\n\t\r\n\tl=[]\r\n\tif(n<1):\r\n    \t\treturn None\r\n\telse:\r\n    \t\treturn check(n,l)",
+            "position": "6,1"
+        }
+    ]
+}
