@@ -6,6 +6,20 @@
             "keyStrokeTimeStamp": "Tue Aug 31 2021 21:16:31",
             "keyStrokeInfo": "def isLatinSquare(lst):\r\n    # Your code goes here...\r\n    if(len(lst)==0):\r\n        return None\r\n    else:\r\n        row=len(lst)\r\n        col=len(lst[0])\r\n        c=0\r\n        for i in lst:\r\n            a=set(i)\r\n            if(len(a)==col):\r\n                c+=1\r\n            else:\r\n                return False\r\n        return True",
             "position": "10,1"
+        },
+        {
+            "operation": "DELETE",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:19:22",
+            "keyStrokeInfo": "",
+            "position": "12,20"
+        },
+        {
+            "operation": "TYPED",
+            "lines": 0,
+            "keyStrokeTimeStamp": "Tue Aug 31 2021 21:19:22",
+            "keyStrokeInfo": ":",
+            "position": "12,20"
         }
     ]
 }
